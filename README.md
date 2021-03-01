@@ -21,7 +21,7 @@
 <br />
 
 <p align="center">
-  <img alt="MoveIt" src=".github/images/nlw4-image-documentation. svg" />
+  <img alt="MoveIt" src=".github/images/nlw4-image-documentation.png" />
 </p>
 
 ## 📄 Descrição
