@@ -18,11 +18,7 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
-</p>
-
-<br>
+<br />
 
 <p align="center">
   <img alt="MoveIt" src=".github/images/nlw4-image-documentation. svg" />
