@@ -25,7 +25,7 @@ export const ExperienceBar = () => {
           percentToNextLevel={percentToNextLevel}
           style={{ left: `${percentToNextLevel}%` }}
         >
-          {currentExperience} xp
+          {currentExperience != 0 && `${currentExperience} xp`}
         </CurrentExperience>
       </ProgressBarContainer>
       <span>{experienceToNextLevel} xp</span>
