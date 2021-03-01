@@ -10,8 +10,10 @@
 </h1>
 
 <p align="center">
+  <a href="#-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#octocat-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -26,39 +28,60 @@
   <img alt="MoveIt" src=".github/images/nlw4-image-documentation. svg" />
 </p>
 
+## 📄 Descrição
+
+O Move.it é um app que usa a técnica de Pomodoro, esse app faz com que pessoas que passa muito tempo na frente do computador realizar exercícios físicos.
+
+## 🎨 Layout
+
+Você pode acessar o Layout pelo <a href="https://www.figma.com">Figma</a> atravês <a href="https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0">desse link</a>.
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- React
-- Next
-- TypeScript
+- [React](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [StyledComponents](https://styled-components.com/)
 
-## 💻 Projeto
+## 📋 Funcionalidades
 
-O MoveIt é
+- [x] Iniciar um ciclo de 25 minutos.
+- [x] Abadornar ciclo.
+- [x] Dispara um efeito sonoro quando o ciclo chega ao fim.
+- [x] Manda uma notificação quando o ciclo chega ao seu fim.
+- [x] A cada ciclo libera um novo desafio.
+- [x] Usuário ganha XP a cada desafio concluído.
+- [x] Usuário pode subir de nível.
 
 ## :octocat: Instalação
 
-Para clonar o repositório
+### Pré-requisitos
 
-> `git clone https://github.com/Italo-Alves/Estudai-Front-End.git`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-Para instalar as dependencias com Yarn
+```bash
+# Clone este repositório.
+$ git clone https://github.com/Italo-Alves/moveit-nlw4.git
 
-> `yarn | yarn install`
+#Vá para a pasta
+$ cd moveit-nlw4
 
-Para instalar as dependencias com NPM
+# Instale as dependências com Yarn
+$ yarn | yarn install
 
-> `npm install | npm i`
+# Instale as dependências com npm
+$ npm install | npm i
 
-Iniciar o ambiente de desenvolvimento
+# Execute aplicação
+$ yarn dev | npm run dev
 
-> `yarn start`
+# O app vai está rodando na porta 3000 - acesse <http://localhost:3000>
+```
 
-## :memo: Licença
+## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
