@@ -4,7 +4,7 @@
   <a href="https://www.linkedin.com/in/italo-alves-48b9b897">
     <img alt="Linkedin" src="https://img.shields.io/badge/-Italo%20Alves-29B6D1?label=Linkedin&logo=linkedin&style=flat-square">
   </a>
-  <a href="https://github.com/Italo-Alves/NLW4-React/blob/master/LICENSE.md">
+  <a href="https://github.com/Italo-Alves/moveit-nlw4/blob/master/LICENSE.md">
     <img alt="GitHub license" src="https://img.shields.io/github/license/italoalves/moveit-nlw4?logo=mint&style=flat-square">
   </a>
 </h1>
